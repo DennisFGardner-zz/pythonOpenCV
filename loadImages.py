@@ -1,7 +1,10 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Dec 08 22:04:06 2016
+# is this how I make comments
 
-@author: Gardner
-"""
+import numpy as np
+import cv2
 
+img = cv2.imread('headshot.jpg',0)
+
+cv2.imshow('image',img)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
